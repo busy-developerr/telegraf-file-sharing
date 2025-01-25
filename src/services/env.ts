@@ -6,7 +6,7 @@ const env = cleanEnv(process.env, {
   DB_CHANNEL_ID: num(),
   DEVELOPMENT: bool({ default: undefined }),
   WEBHOOK_DOMAIN: str({ default: undefined }),
-  PORT: num({ default: 8080 }),
+  PORT: num({ default: 80 }),
   FORCE_CHANNEL_IDS: str({ default: undefined }),
   FORCE_GROUP_IDS: str({ default: undefined }),
   ADMIN_IDS: str(),
